@@ -9,5 +9,7 @@ public class SpringBootReqResApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootReqResApplication.class, args);
 	}
-
+	public void developChange() {
+	 // changes done in develop by another person
+	}
 }
