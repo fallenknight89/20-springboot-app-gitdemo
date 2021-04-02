@@ -13,5 +13,9 @@ public class SpringBootReqResApplication {
 	public void doProcess() {
 		//logic goes here
 	}
+	//HIS-200 related new changes
+	public void doProcessTwo() {
+		//logic goes here
+	}
 
 }
