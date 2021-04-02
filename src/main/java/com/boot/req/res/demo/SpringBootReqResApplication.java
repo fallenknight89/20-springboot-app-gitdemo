@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringBootReqResApplication {
-
+	private Map<String,Object> cache = new HashMap();
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootReqResApplication.class, args);
 	}
@@ -16,6 +17,10 @@ public class SpringBootReqResApplication {
 	//HIS-200 related new changes
 	public void doProcessTwo() {
 		//logic goes here
+	}
+	//HIS-301 changes
+	public void loadDataToCache(){
+		//logic
 	}
 
 }
