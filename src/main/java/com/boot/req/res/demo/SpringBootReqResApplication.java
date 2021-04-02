@@ -13,6 +13,7 @@ public class SpringBootReqResApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootReqResApplication.class, args);
 	}
+
 	//HIS-200 related changes
 	public void doProcess() {
 		//logic goes here
@@ -24,6 +25,11 @@ public class SpringBootReqResApplication {
 	//HIS-301 changes
 	public void loadDataToCache(){
 		//logic
+	}
+
+
+	public void developChange() {
+	 // changes done in develop by another person
 	}
 
 }
