@@ -5,7 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringBootReqResApplication {
-	private Map<String,Object> cache = new HashMap();
+
+  private Map<String,Object> cache = new HashMap();
+  private static final String REST_URL="https://www.equifax.com/getScores";
+
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootReqResApplication.class, args);
